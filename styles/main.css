@@ -59,11 +59,11 @@ body, html {
   justify-content: center; }
 
 .box-2, .box-3, .box-4 {
-  margin-left: 40px;
+  margin-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80vh;
+  height: 70vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -72,6 +72,15 @@ body, html {
   -ms-flex-pack: center;
   justify-content: center;
   padding: 50px; }
+
+#starting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
 
 nav {
   color: #262626;
@@ -97,7 +106,8 @@ nav a {
 
 #ab {
   width: 60%;
-  position: relative; }
+  position: relative;
+  line-height: 1.7em; }
 
 .about-section {
   margin-left: 50px;
@@ -111,16 +121,41 @@ nav a {
   font-size: 20px;
   line-height: 1.5em; }
 
+#name {
+  margin-top: 200px; }
+
+h4 {
+  margin: 5px;
+  font-size: 20px; }
+
+.invisible {
+  background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 440px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 .aboutmef {
   width: 200px;
   -ms-flex-item-align: end;
   align-self: flex-end; }
 
 #julia_pic {
-  width: 250px;
+  width: 280px;
   border-radius: 50%;
-  margin-left: 100px;
-  margin-top: 20px; }
+  margin-left: 150px;
+  margin-top: 2px; }
 
 ul li {
   list-style: none; }
