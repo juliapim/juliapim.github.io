@@ -37,6 +37,7 @@ anime.timeline({loop: true})
     delay: 10000
   });
 
+  //transparency
   const aboutImage = document.querySelector('#julia_pic');
   const transparency = ()=>{
     
@@ -49,12 +50,16 @@ anime.timeline({loop: true})
 
 aboutImage.addEventListener('mouseover', transparency);
 aboutImage.addEventListener('mouseout', transparencyOut);
+
+//projects
+const brazil = document.querySelectorAll('.proj');
+
   
 //modal
-const contactMe = document.querySelector('#modal');
-const createModal = ()=>{
-  const newSection = document.createElement('section');
+// const contactMe = document.querySelector('#modal');
+// const createModal = ()=>{
   
-};
 
-contactMe.addEventListener('click', createModal);
+// };
+
+// contactMe.addEventListener('click', createModal);
