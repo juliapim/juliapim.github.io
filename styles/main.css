@@ -58,7 +58,7 @@ body, html {
   -ms-flex-pack: center;
   justify-content: center; }
 
-.box-2, .box-3, .box-4 {
+.box-2, .box-3, .box-4, .box-5 {
   margin-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,6 +135,9 @@ h4 {
   -webkit-box-shadow: 6px 5px 24px 3px #888888;
   box-shadow: 6px 5px 24px 3px #888888; }
 
+.proj a:hover {
+  width: 800px; }
+
 #brasil-web, #github {
   height: 270px; }
 
@@ -199,8 +202,16 @@ li {
   -ms-flex-pack: distribute;
   justify-content: space-around; }
 
-footer h2 {
-  text-align: center; }
+.contact, h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px; }
+
+.contact {
+  width: 50%;
+  background-color: #c3e6e1;
+  height: 180px;
+  margin: 0 auto; }
 
 .icon-list {
   display: -webkit-box;
@@ -212,7 +223,7 @@ footer h2 {
 
 .icon {
   padding-right: 40px;
-  font-size: 30px; }
+  font-size: 70px; }
 
 @media screen and (max-width: 600px) {
   .about-section, .proj {
