@@ -58,7 +58,7 @@ body, html {
   -ms-flex-pack: center;
   justify-content: center; }
 
-.box-2, .box-3, .box-4, .box-5 {
+.box-2, .box-3, .box-4 {
   margin-left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,7 +71,8 @@ body, html {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 50px; }
+  padding: 50px;
+  z-index: 0; }
 
 #starting {
   display: -webkit-box;
@@ -175,6 +176,9 @@ li {
 #ms {
   margin-bottom: 80px; }
 
+.softSkills {
+  margin: 0 auto; }
+
 .skillsIcons {
   width: 100%;
   display: -webkit-box;
@@ -207,11 +211,42 @@ li {
   padding-top: 10px;
   padding-bottom: 30px; }
 
+form {
+  width: 60%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 20px auto; }
+  form input, form textarea {
+    background-color: #effffd;
+    border: 0;
+    border-bottom: 1px solid grey; }
+
 .contact {
-  width: 50%;
-  background-color: #c3e6e1;
-  height: 180px;
-  margin: 0 auto; }
+  width: 60%;
+  background-color: #eff8ff;
+  display: none;
+  height: 600px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 500px; }
+
+#close {
+  padding-top: 10px;
+  padding-left: 920px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold; }
+
+button {
+  width: 30%;
+  margin: 10px 353px; }
 
 .icon-list {
   display: -webkit-box;
