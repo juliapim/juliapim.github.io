@@ -223,13 +223,14 @@ form {
   flex-direction: column;
   margin: 20px auto; }
   form input, form textarea {
-    background-color: #effffd;
+    padding: 30px;
+    background-color: #a6cce9;
     border: 0;
     border-bottom: 1px solid grey; }
 
 .contact {
   width: 60%;
-  background-color: #eff8ff;
+  background-color: #a6cce9;
   display: none;
   height: 600px;
   margin: 0 auto;
