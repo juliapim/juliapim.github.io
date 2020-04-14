@@ -5,7 +5,7 @@ import '../styles/main.scss';
 
 
 // \/ All of your javascript should go here \/
-var textWrapper = document.querySelector('.ml11 .letters');
+const textWrapper = document.querySelector('.ml11 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: true})
@@ -56,10 +56,11 @@ const brazil = document.querySelectorAll('.proj');
 
   
 //modal
-// const contactMe = document.querySelector('#modal');
-// const createModal = ()=>{
-  
+const contactMe = document.querySelector('.contact');
+const openButton = document.querySelector('#modal');
+const createModal = ()=>{
+  contactMe.style.display = 'block';
 
-// };
+};
 
-// contactMe.addEventListener('click', createModal);
+openButton.addEventListener('click', createModal);

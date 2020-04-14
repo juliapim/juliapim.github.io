@@ -59,13 +59,14 @@ body, html {
   justify-content: center;
 }
 
-.box-2, .box-3, .box-4, .box-5 {
+.box-2, .box-3, .box-4 {
   margin-left: 50px;
   display: flex;
   height: 80vh;
   flex-direction: column;
   justify-content: center;
   padding: 50px;
+  z-index: 0;
 }
 #starting{
   display: flex;
@@ -170,6 +171,9 @@ li {
   
   margin-bottom: 80px;
 }
+.softSkills{
+  margin:0 auto;
+}
 .skillsIcons {
   width: 100%;
   display: flex;
@@ -203,13 +207,45 @@ li {
   padding-top: 10px;
   padding-bottom: 30px;
 }
-.contact{
-  width: 50%;
-  background-color:rgb(195, 230, 225);
-  
-  height: 180px;
-  margin: 0 auto;
+
+form{
+  width: 60%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  input, textarea{
+    background-color:rgb(239, 255, 253);
+    border: 0;
+    border-bottom: 1px solid grey;
+  }
 }
+.contact{
+  width: 60%;
+  background-color:rgb(239, 248, 255);
+  display: none;
+  height: 600px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 500px;
+}
+#close{
+  padding-top: 10px;
+  padding-left: 920px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  
+}
+
+
+button{
+ 
+  width: 30%;
+  margin: 10px 353px;
+}
+
 .icon-list {
   display: flex;
   justify-content: center;
